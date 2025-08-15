@@ -6,7 +6,7 @@ Script description: SQLite3 database config
 import sqlite3
 
 #create database connection
-con = sqlite3.connect('Database-Exercise/market.db')
+con = sqlite3.connect('market.db')
 
 #create cursor for CRUD
 cur = con.cursor()

@@ -1,0 +1,22 @@
+CRUD
+C: Create: Insert into table_name(..)values(..)
+R: Read: Select * From table_name WHERE
+U: Update: Update table_name SET field_name = (...)WHERE
+D: Delete: Delete From table_name WHERE
+
+workshop
+
+1. create main menu with following options
+    [1]. create new user
+    [2]. list all users
+    [3]. list active users
+    [4]. list inactive users
+    [5]. update user ---> all data with id or ide_number
+    [6]. Delete user
+    [7]. search user  --- with ide_number
+    [8]. exit
+
+2. validations
+    opt. 1. verify if user exist -> don't repeat ide_number or email
+    opt. 2. list users with table format
+    validate otions, if option is < 1 or >8 then print error message and try again
